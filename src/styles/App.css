@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.calendar{
+  text-align: center;
+  background-image: linear-gradient(to bottom, green,cyan);
+}
+
+.task {
+  background: linear-gradient(to right, #68b421, rgba(255, 44, 118, .25)), #485fed;
+  color: #FFF;
+  padding: 5px 5px;
+  position: relative;
+  box-shadow: 0px 0px 40px -9px #485fed;
+  margin-bottom: 25px;
+  text-align:left;
+}
+
+.today-box {
+  background: linear-gradient(to left, #485fed, rgba(255, 44, 118, .25)), #485fed;
+  color: #FFF;
+  padding: 37px 40px;
+  position: relative;
+  box-shadow: 0px 0px 40px -9px #485fed;
+  margin-bottom: 50px;
+}
+.today {
+     font-weight: 300;
+     position: relative;
+
+}
+  .date-title {
+     font-size: 20px;
+     margin: 7px 0 0 0;
+     letter-spacing: 1px;
+     font-weight: 600;
+     text-shadow: 0px 0px 5px  rgba(#000, 0.15);
+}
